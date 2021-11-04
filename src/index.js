@@ -15,6 +15,8 @@ window.navigator.geolocation.getCurrentPosition(
   )
 }
 
+// Ne peut pas fonctionner de manière efficace => Functionnal component can't get the position and render it in the same time. => Need to refactor it to get a class-based component (Voir fiches post it exo Geoloc.)
+
 ReactDOM.render(
     <App />,
     document.querySelector('#root')
